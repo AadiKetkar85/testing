@@ -37,3 +37,5 @@ class BlogPost(BaseModel):
     author_id: str | int
 
     status: Literal["draft", "published", "archived"] = "draft"
+
+#added comments
